@@ -117,7 +117,7 @@ int main()
 		glm::vec3(-1.3f,  1.0f, -1.5f)
 	};
 
-	Shader ourShader("vertex.glsl", "frag.glsl");
+	Shader ourShader("../Source/Resources/Shaders/vertex.glsl", "../Source/Resources/Shaders/frag.glsl");
 
 	// Buffer Gen
 	unsigned int VBO, VAO;// EBO;
